@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-US" style="color: firebrick; font-family: Comic Sans MS, cursive">
+
+<header>
+    <h1 id="myheader" style="background:deeppink; color:red; padding:10px 20px; text-align:right;">generate rando pw</h1>
+    <button type="button" onclick="toggle();">Super Important Button</button>
+
+    <script>
+        let toggle = () => {
+            let element = document.getElementById("myheader");
+            if (element.style.backgroundColor === "deeppink") {
+                element.style.backgroundColor = "hotpink";
+            } else {
+                element.style.backgroundColor = "deeppink";
+            }
+        }
+    </script>
+</header>
+
+<nav>
+    <ul style="text-align: right">
+        <a href="#">These links don't do anything</a>
+        <br>
+        <a href="#">Just here for the <i>aesthetic</i>!</a>
+    </ul>
+    <form>
+        <label>
+            <input type="search" name="q" style="background-color: darkred;" placeholder="Search Website" />
+        </label>
+        <input type="submit" value="Really? Just use Ctrl+F" />
+    </form>
+</nav>
+
+<main>
+    <article>
+        <h2>What is a Password Generator?</h2>
+        <p style="text-align: right">
+            A <b>password generator</b> is a tool that creates unique passwords.
+            It is often used in partnership with a password management solution, allowing you to create strong secure
+            passwords and store them in a digital vault. In turn, this also frees you from the task of having
+            to memorize any credentials except for your master password.
+        </p>
+
+        <h2>Still Confused? Learn What a Password Generator Is!</h2>
+        <p style="text-align: center">
+            A <b>password generator</b> is a software tool that creates random or customized passwords for users.
+            It helps users create strong passwords that provide greater security for a given type of access.
+        </p>
+        <p>
+            A <b>password generator</b> is a tool that creates random passwords for you.
+            These utilities make the password creation process much easier by preventing you from making common mistakes.
+            The most important thing to remember about password generators is that they don't store any passwords.
+            Instead, they create long strings of random characters that are highly difficult for humans to remember
+            but also challenging to crack.
+        </p>
+
+        <p style="text-align: right">
+            Click the pink text at the bottom to generate the password.
+        </p>
+
+    </article>
+
+    <aside>
+        <div class="length range__slider" data-min="0" data-max="40">
+            <div class="length__title field-title" data-length='0'>
+                length:
+            </div>
+            <label for="slider"></label><input id="slider" type="range" min="0" max="40" value="0" />
+        </div>
+    </aside>
+    <p style="color: deeppink; text-align: center">
+        Make sure to copy your password. We don't want to remember it for you!
+    </p>
+</main>
+</html>
