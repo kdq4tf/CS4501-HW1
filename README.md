@@ -12,3 +12,4 @@
   * [DoFactory](https://www.dofactory.com/html/header/style#:~:text=The%20style%20attribute%20specifies%20the,or%20an%20external%20CSS%20file)
 * Generator Code:
   * [CodePen](https://codepen.io/dev_loop/pen/vYYxvbz)
+  * [CodingNepal](https://www.codingnepalweb.com/password-generator-javascript/)

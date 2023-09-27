@@ -1,0 +1,37 @@
+
+.password-box input {
+  height: 100%;
+  border-radius: 8px;
+  padding: 0 45px 0 15px;
+  border: 1px darkred;
+  background-color: deeppink;
+}
+
+.range-box input {
+  width: 100%;
+  height: 2px;
+  accent-color: hotpink;
+  cursor: pointer;
+}
+.range-box .slider-number {
+  min-width: 30px;
+  font-size: 6px;
+  color: darkred;
+}
+div button {
+  float: right;
+}
+.wrapper .generate-button {
+  width: 10%;
+  color: red;
+  padding: 12px 0;
+  margin-top: 20px;
+  background: hotpink;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.generate-button:hover {
+  background-color: greenyellow;
+}
